@@ -114,8 +114,13 @@ footer {
   .container {
     grid-template-columns: 1fr;
   }
+  .Experiences, .education {
+    grid-column: auto;
+  }
+  .Skills, .Experiences {
+    margin-left: 0;
+  }
 }
-
 
 
 
