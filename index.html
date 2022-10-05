@@ -141,17 +141,20 @@
     </main>
 </body>
 <script>
-window.addEventListener('DOMContentLoaded', (event) => {
+
 let Text = 'Hi! I am M.Jamal.Khan';
 let SpeedinMS = 50;
 let i = 0;
-function TextWriter() {
+const TextWriter = () =>{
   if (i < Text.length) {
     document.querySelector("#welcome-section > h1").innerText += Text.charAt(i);
     i++;
     setTimeout(TextWriter, speed);
   }
 }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(TextWriter,2000)
         });
     </script>
 </html>
