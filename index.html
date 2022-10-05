@@ -139,9 +139,8 @@
 
         </section>
     </main>
-</body>
+    
 <script>
-
 let Text = 'Hi! I am M.Jamal.Khan';
 let SpeedinMS = 50;
 let i = 0;
@@ -152,9 +151,7 @@ const TextWriter = () =>{
     setTimeout(TextWriter, speed);
   }
 }
-
-    window.addEventListener('DOMContentLoaded', () => {
-        setTimeout(TextWriter,2000)
-        });
+    window.addEventListener('DOMContentLoaded',TextWriter);
     </script>
+</body>
 </html>
