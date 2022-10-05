@@ -21,7 +21,7 @@
             </nav>
         </header>
         <section id="welcome-section">
-            <h1></h1>
+            <h1 class = "name"></h1>
 
         </section>
         <section id="projects-wrap">
@@ -146,7 +146,7 @@ let SpeedinMS = 50;
 let i = 0;
 let TextWriter = () =>{
   if (i < Text.length) {
-    document.querySelector("#welcome-section > h1").innerText += Text.charAt(i);
+    document.querySelector(".name").innerHTML += Text.charAt(i);
     i++;
     setTimeout(TextWriter, speed);
   }
