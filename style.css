@@ -143,7 +143,7 @@ h2 {
 }
 
 #welcome-section h1 {
-animation: typing 3.5s steps(30, end) infinite;
+animation: typing 3.5s infinite;
 }
 @keyframes typing { from { width: 0} to { width: 100%} }
 
