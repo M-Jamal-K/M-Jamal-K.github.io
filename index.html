@@ -146,7 +146,7 @@ let SpeedinMS = 50;
 let i = 0;
 const TextWriter = () =>{
   if (i < Text.length) {
-    document.querySelector("#welcome-section h1").innerText += Text.charAt(i);
+    document.querySelector("#welcome-section h1").textContent += Text.charAt(i);
     i++;
     setTimeout(TextWriter, SpeedinMS);
   }
