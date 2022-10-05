@@ -143,9 +143,9 @@ h2 {
 }
 
 #welcome-section h1 {
-animation: typing 3.5s steps(30, end)
+animation: typing 3.5s steps(30, end) infinite;
 }
-@keyframes typing { from { width: 0,opacity: 0 } to { width: 100%,opacity: 1 } }
+@keyframes typing { from { width: 0} to { width: 100%} }
 
 
 
